@@ -40,3 +40,6 @@ opt.updatetime = 250
 
 -- Turns on true 24-bit RGB terminal color maps for modern color scheme themes
 opt.termguicolors = true
+
+-- Allow backspace to delete indents, line breaks, and start positions
+vim.opt.backspace = "indent,eol,start"
